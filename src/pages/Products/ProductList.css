@@ -1,0 +1,8 @@
+.filter-wrapper {
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+.filter-wrapper.filter-hide {
+  left: -40rem;
+  transition: 0.3s ease-in-out;
+}/*# sourceMappingURL=ProductList.css.map */

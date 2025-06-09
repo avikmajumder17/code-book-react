@@ -1,0 +1,9 @@
+.filter-wrapper{
+    left: 0;
+    transition: 0.3s ease-in-out;
+
+    &.filter-hide{
+        left: -40rem;
+        transition: 0.3s ease-in-out;
+    }
+}
