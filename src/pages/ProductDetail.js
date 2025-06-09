@@ -28,7 +28,7 @@ export const ProductDetail = () => {
     }
 
     fetchProducts();
-  }, []);
+  }, [id]);
   
 
   useEffect(() => {

@@ -32,7 +32,7 @@ export const ProductListPage = () => {
       }      
     }
     fetchProducts();
-  }, [searchTerm])
+  }, [searchTerm]) //eslint-disable-line
 
 
   return (
