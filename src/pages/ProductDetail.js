@@ -8,6 +8,7 @@ import { Rating } from "../components";
 import { useCart } from "../context";
 import { getProduct } from "../services";
 
+
 export const ProductDetail = () => {
   const [product, setProduct] = useState({});
   const [inCart, setInCart] = useState(false);
